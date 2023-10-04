@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    background-color: #0984e3;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.container input {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container input:focus {
+    outline: none;
+    border: 2px solid #0984e3;
+}
+
+.container button {
+    background-color: #0984e3;
+    border: 1px solid #0984e3;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+a {
+    text-align: center;
+    color: #0984e3;
+}
