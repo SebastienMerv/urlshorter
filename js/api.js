@@ -1,3 +1,5 @@
+const site = "https://urlshort.be/";
+
 const btn = document.querySelector('#btn');
 const result = document.querySelector('#result');
 btn.addEventListener('click', () => {
@@ -30,8 +32,8 @@ btn.addEventListener('click', () => {
             else {
                 navigator.clipboard.writeText(data.short_url);
                 // Traitement de la réponse
-                result.textContent = data.short_url;
-                result.href = data.short_url;
+                result.textContent = site + data.short_url;
+                result.href = site + data.short_url;
             }
         })
         .catch(error => {
