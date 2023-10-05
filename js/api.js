@@ -30,7 +30,7 @@ btn.addEventListener('click', () => {
                 result.href = "#";
             }
             else {
-                navigator.clipboard.writeText(data.short_url);
+                navigator.clipboard.writeText(site + data.short_url);
                 // Traitement de la réponse
                 result.textContent = site + data.short_url;
                 result.href = site + data.short_url;
